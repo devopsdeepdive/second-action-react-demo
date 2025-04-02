@@ -2,10 +2,10 @@ name: Test Project
 on:
   push:
     branches: ["master"]
-  # workflow_dispatch:
-  #   inputs:
-  #     parameter:
-  #       description: My Parameter
+  workflow_dispatch:
+      #inputs:
+        #parameter:
+          #description: My Parameter
 jobs:
   test:
     runs-on: ubuntu-latest
